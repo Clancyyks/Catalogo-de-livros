@@ -1,0 +1,59 @@
+/* src/index.css */
+body {
+    transition: background-color 0.3s, color 0.3s;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Requisito: Botão de tema altera as cores (duas variações visíveis) */
+/* Tema Claro */
+body.light {
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+/* Tema Escuro */
+body.dark {
+    background-color: #333;
+    color: #f0f0f0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+body.dark .container {
+    background-color: #444;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.book-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+    border-bottom: 1px dashed #ccc;
+}
+body.dark .book-item {
+    border-bottom: 1px dashed #555;
+}
+
+input, button {
+    padding: 8px;
+    margin: 5px;
+}
+
+.book-form input {
+    margin-right: 10px;
+}
