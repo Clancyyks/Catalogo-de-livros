@@ -1,4 +1,22 @@
-# Catalogo-de-livros, integrantes do grupo:
+# Catálogo de Livros
+
+# Pré-requisitos
+
+```bash
+Node.js instalado
+
+Ionic CLI instalada globalmente
+
+npm install -g @ionic/cli
+```
+
+## Como Rodar
+```bash
+npm install
+ionic serve
+Acesse: http://localhost:8100
+```
+# integrantes do grupo:
 Assuero Eduardo Cândido Guimarães - 01698585
 
 Giovanni Saverio Svedese Rocha - 01725339
