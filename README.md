@@ -4,17 +4,12 @@
 
 ```bash
 Node.js instalado
-
-Ionic CLI instalada globalmente
-
-npm install -g @ionic/cli
 ```
 
 ## Como Rodar
 ```bash
 npm install
-ionic serve
-Acesse: http://localhost:8100
+npm run dev
 ```
 # integrantes do grupo:
 Assuero Eduardo Cândido Guimarães - 01698585
